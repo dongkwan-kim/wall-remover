@@ -1,0 +1,16 @@
+{
+    "name": "Wall Remover",
+    "description": "Let's Remove a Wall",
+    "version": "1.0",
+    "icons": {
+    },
+    "content_scripts": [{
+      "js": [
+        "main.js"
+      ],
+      "matches": [
+        "*://www.technologyreview.com/*"
+      ]
+    }],
+    "manifest_version": 2
+  }
